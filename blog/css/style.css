@@ -1,0 +1,92 @@
+/* TO GET AN IDEA OF THE CSS YOU WILL LIKELY BE USING, SEE THE LISTS BELOW. */
+
+        /* 
+        
+        Spacing 
+
+            - padding (shorthand and/or specific properties like padding-bottom, etc.)
+
+            - margin, (shorthand and/or specific properties like margin-top, etc.)
+
+            - letter-spacing, word-spacing, line-height
+
+            - width, max-width, min-width
+            - height, max-height, min-height
+
+        Typography 
+
+            - font-family, font-size, font-style, font-weight
+
+            - text-decoration, text-align
+
+            - color
+
+            - text-shadow, text-transform
+
+        Box, Layout and Border 
+
+            - border (shorthand and/or specific properties like border-top, border-bottom-radius, border-width, etc.)
+
+            - box-shadow
+
+            - display, float, align-items, align-content
+
+            - grid-template-columns, grid-column-gap
+
+            - transform
+
+        Other
+
+            - :nth()-child (to target specific child elements)
+
+            - :focus, :hover, :active (to target link states)
+
+            - @font-face or @import (to import typefaces)
+
+        */
+
+/* ------ START WRITING YOUR CODE BELOW ------ */
+
+@font-face {
+    font-family: sans-serif;
+    src: url(../fonts/sans-serif-regular.tff) format('truetype');
+}
+@font-face {
+    font-family: serif;
+    src: url(../fonts/serif-regular.tff) format('truetype');
+}
+h1 {
+    font-size: 4.5rem;
+    transform: rotate(-5deg);
+    text-align: center;
+}
+h2{
+    font-size: 1rem;
+
+}
+nav{
+    border-top: .095rem solid black;
+    border-bottom: .095rem solid black;
+    text-align: left;
+    padding: 1rem;
+    word-spacing: 3rem; 
+}
+a{
+    text-decoration: none;
+    font-family: sans-serif;
+    color: darkblue;
+    font-weight: 200;
+    font-size: larger;
+}
+img{
+    
+    display: block;
+    max-width: 15rem;
+}
+
+main{
+    text-align: left;
+}
+footer{
+    text-align: left;
+}
